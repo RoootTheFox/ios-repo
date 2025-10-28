@@ -21,7 +21,7 @@ jobs:
           output=$(mktemp -d)
           echo "OUTPUT=$output" >> $GITHUB_ENV
           echo "output dir: $output"
-          
+
           # copy repo template
           cp -r ./public/* "$output/"
 
@@ -65,6 +65,13 @@ jobs:
           mv "debs" "$output/"
           bzip2 -kz tmp/Packages -c > "$output/Packages.bz2"
           cp tmp/Packages "$output/Packages"
+
+          # add hashes to release file
+          apt-ftparchive release "$output" > "$output/Tail-Release"
+          cat "$output/Head-Release" "$output/Tail-Release" > "$output/Release"
+          rm "$output/Head-Release" "$output/Tail-Release" # we dont want those in the actual repo
+
+          # todo: gpg gpg -abs -u $GPG_KEY_ID -o "$output/Release.gpg" "$output/Release"
 
       - name: Build AltSource
         run: |
