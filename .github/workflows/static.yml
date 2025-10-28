@@ -17,6 +17,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Repository
+        env:
+          GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
         run: |
           output=$(mktemp -d)
           echo "OUTPUT=$output" >> $GITHUB_ENV
@@ -73,8 +76,13 @@ jobs:
           cat "$output/Head-Release" "$output/Tail-Release" > "$output/Release"
           rm "$output/Head-Release" "$output/Tail-Release" # we dont want those in the actual repo
 
-          # todo: gpg gpg -abs -u $GPG_KEY_ID -o "$output/Release.gpg" "$output/Release"
+          if ! [ -z "$GPG_KEY_ID" ]; then
+            echo "$GPG_PRIVATE_KEY" | gpg --import
 
+            gpg -abs -u $GPG_KEY_ID -o "$output/Release.gpg" "$output/Release"
+          else
+            echo "WARNING: no GPG key configured, repo will be unsigned!"
+          fi
       - name: Build AltSource
         run: |
           output=${{ env.OUTPUT }}
