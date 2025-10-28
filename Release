@@ -6,16 +6,16 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: The default repository for the Geode tweak!
-Date: Tue, 28 Oct 2025 14:21:36 +0000
+Date: Tue, 28 Oct 2025 14:24:00 +0000
 MD5Sum:
- 1f7973dffac9dcbc1a8166f5bd61761c             4585 Packages
- 4323be2fdc9accf7a0ac6b48a7522cb2             1214 Packages.bz2
+ cee615c4161f4ac5ec4ed1b020c03d48             6241 Packages
+ b7f522d4e553566d71dfbff992bef4db             2086 Packages.bz2
 SHA1:
- 497e8f5521a0b2280215a22edcf437c583b9e564             4585 Packages
- 3a6b38d0acaeebc35ef46212dc90bb525256a9c5             1214 Packages.bz2
+ 375715f211d98e7cf5c4644af95b90b6510d64cd             6241 Packages
+ 8389a309a3809a92012059af8d60d9463ae86b83             2086 Packages.bz2
 SHA256:
- 12133cb438fe4fbd8d5e9229791ed0fb73cb2de957e10c2b3bee86676f60f1ce             4585 Packages
- 9000bdaea56c94a544b114ddc2da9525c891984e80c4535200536e140b9c8bcc             1214 Packages.bz2
+ 88d46d8bf515e23b02d163f005fc4c9cddaaea43b074e64d39f8c16e7135cc92             6241 Packages
+ 450d338bdf9264ba756d8cb61fdace9608920f8c3fbce07d47d5e7074c1656b7             2086 Packages.bz2
 SHA512:
- 44b2262615470d8707a49b10f0102f34484ea15cb02b2e548ad657a9196c3f4eacd899ada7468e808bbbd0771fbc03484d276faacce51d1234e03bf55574cbf8             4585 Packages
- 5b8f8c628fc562f1a3ced576bf123712cb86762010abb63e69f7f9fb1c4eefd4e57481bb8f2a76a89c5978fa10775ac842326e7e88ed92fb0df7da8c0618c95d             1214 Packages.bz2
+ 6156a05656f41e3f94980ee4e175b95114dec13d7280202e60ecb46348253cdcde44795f30e348f820005ddebdde276d0ab0694ae97dc37c5fbe35d99b9034b7             6241 Packages
+ 75924b35bc3c971a2e6b26dd73d69940ce1df44f0527cd24278b93981b2fec783c0183a707c91b9d3288eb11d952886f30954effcbe6faa04b84b78f5e46bc8e             2086 Packages.bz2

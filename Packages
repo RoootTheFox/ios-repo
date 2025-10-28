@@ -11,7 +11,9 @@ Version: 0.0.2
 Filename: ./debs/gay.rooot.geodeinject_0.0.2_iphoneos-arm.deb
 Size: 12314
 MD5sum: 2c9b8cf6b4543baf1ce0ed9ea6d789d2
+SHA1: 6ef75dbd3b95789f14c2713d0dc182c2fbd3ad81
 SHA256: e9eab0c5a22acc50453f959611dd472b0b88f2403cd4360952f1134d5e2339bc
+SHA512: f8a81429abd036770358259d5d8be1430e8df88feaa6b64b61c5c238721b8a162b460a3591014c74b96684fbbfdbf1ed0be074600bfe0eeed363dcc13babb4c7
 
 
 Package: gay.rooot.geodeinject
@@ -27,7 +29,9 @@ Version: 0.0.2
 Filename: ./debs/gay.rooot.geodeinject_0.0.2_iphoneos-arm64.deb
 Size: 12412
 MD5sum: e1064a4bd3ec8fdc0b2e3a76d82429f8
+SHA1: b5499405d09203c47a00606c95a285efbf34724b
 SHA256: 26073281a4f7fb38e63df717a840c886d4e718511f1611029a50225a01fe959a
+SHA512: 859f46afc8e03b7ba21cdcea319693b9a9c28a6c254b3e69c1c6211687f4f328040af0e339d2a88e5b05f2518d753127dd305efbe31f10a1d0037162b34772c9
 
 
 Package: gay.rooot.geodeinject
@@ -43,7 +47,9 @@ Version: 0.0.3
 Filename: ./debs/gay.rooot.geodeinject_0.0.3_iphoneos-arm.deb
 Size: 16130
 MD5sum: 64a3ceb60bb4e9d9d45986acbb3562e3
+SHA1: 688c301d803323e0f6fca080075fb3aec40699e2
 SHA256: 4aa29b62bd18690971018a5b44c8132437d06080981a5f894a8e27c006a6b661
+SHA512: 71d0059121c1de3344124d662195c467a7c39fd4e89f9612e72f033d56f8ddc4421be64648f9386be58f3e46605d38b81c902293749c4e002c14b6a4f4b0aef4
 
 
 Package: gay.rooot.geodeinject
@@ -59,7 +65,9 @@ Version: 0.0.3
 Filename: ./debs/gay.rooot.geodeinject_0.0.3_iphoneos-arm64.deb
 Size: 16264
 MD5sum: 8237bb3618a6b2e6bc8c8a0c18c8e0f7
+SHA1: 8badb618533c0109d40dacde84bced9377c92f80
 SHA256: e3f94ac3adae9506adaed9aa901073796b046644eb61dfee905e67133de9d5e8
+SHA512: c6e4e21093b4385d69d89de6b02f2d6a9005474edb084462ad66ad8b407374e964b81e0533ca50ec7ff87f0ecfe7728ca334968c59b69a3b8d1c76d44c4cdddb
 
 
 Package: gay.rooot.geodeinject
@@ -75,7 +83,9 @@ Version: 0.0.4
 Filename: ./debs/gay.rooot.geodeinject_0.0.4_iphoneos-arm.deb
 Size: 15132
 MD5sum: c1b0514b81bb62a82e87875bac8602f4
+SHA1: 46d090b5832d4ed6cb0db4ebec9e8e76bceec3f2
 SHA256: 1e45d29d37932aa1c6286f6c855945ccba12bfc9ecada7ce06f3c1c1694c7684
+SHA512: 4c6f24b9ee4a627ef4f95efe298ab2a11d6151af4ae8f6554b6f72aee399ed0810a2bb4da455a253bf3507cc7ebfa4952fbbe83f3210a4718725c59df6b2d9c8
 
 
 Package: gay.rooot.geodeinject
@@ -91,7 +101,9 @@ Version: 0.0.4
 Filename: ./debs/gay.rooot.geodeinject_0.0.4_iphoneos-arm64.deb
 Size: 15238
 MD5sum: 38e79d45f6fee3772a785d51db449652
+SHA1: 2a7c86b3cddbe457e15fc289a11f1f690385c93a
 SHA256: 1da940bd8e2d67a1b8333e700239eee51616b5abc3be80e5efdec2706022bffc
+SHA512: c0589ccab93030436a48c742b087ec9288f93c2550b06f903e63916acaeb1c283dc0bf007fb21298349cfdbd1b1735232ac62b12cd2b49b9e53d452fc70de65f
 
 
 Package: gay.rooot.geodeinject
@@ -107,7 +119,9 @@ Version: 0.0.5
 Filename: ./debs/gay.rooot.geodeinject_0.0.5_iphoneos-arm.deb
 Size: 15014
 MD5sum: 54c3d3fb14a28cc8b5c2bf7217fd5f64
+SHA1: 1a685f6e9fef807fd075ea80bfa264ca585c476d
 SHA256: 38c036dca89340cc639b1a0774455dadcf3f6fd82ac552fb7f96d2fb8106a352
+SHA512: 70d914966e3b37ea0a2748a9d8f57f7aee701b80a3b0dd53beed0338f59944a841a3677399642ca11168ee92b051dfe8606905f090eb63a9add57cef64d96de3
 
 
 Package: gay.rooot.geodeinject
@@ -123,7 +137,9 @@ Version: 0.0.5
 Filename: ./debs/gay.rooot.geodeinject_0.0.5_iphoneos-arm64.deb
 Size: 15096
 MD5sum: 1a0b643d0e98391c9291a8d5b78baeb4
+SHA1: c9cac5a827c8dade51f7899b58068b8ff7cb7c48
 SHA256: 17010c358eb0cc43fc7c01da9cfd2286817af06194beefdd13824f90f771ae40
+SHA512: 83befadb1c47649bdd6010d3fefcadfccfcb4fa8b134fcf7a563b6b9cd75f74a08e44219e1d187ea511238f35efc62c9912ec588c2c4982bab1030e60cbd63f4
 
 
 Package: gay.rooot.geodeinject
@@ -139,6 +155,8 @@ Version: 0.0.5
 Filename: ./debs/gay.rooot.geodeinject_0.0.5_iphoneos-arm64e.deb
 Size: 15058
 MD5sum: 0a08b0f93a31ef6119f72706c77db128
+SHA1: e84c2e58f7c2356090ed1c6713861906f26434b7
 SHA256: 1f93e28a18b48af8e4f70e635c2159f34de17c025c241a1a10f17b57270e43f8
+SHA512: 71414849cd5c257c26350041aa6b3edb2326decb8ac52f2ddc6c6a389af09a9ec0ca3c39760b74244dbfd51c9c57df3fd485447184753c71cff6a3358b14f531
 
 
