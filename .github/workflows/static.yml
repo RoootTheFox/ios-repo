@@ -79,6 +79,11 @@ jobs:
           if ! [ -z "$GPG_KEY_ID" ]; then
             echo "$GPG_PRIVATE_KEY" | gpg --import
 
+            # export public key
+            gpg --export $GPG_KEY_ID > "$output/repo.gpg"
+            gpg --export -a $GPG_KEY_ID > "$output/repo.asc"
+
+            # this signs the repo
             gpg -abs -u $GPG_KEY_ID -o "$output/Release.gpg" "$output/Release"
           else
             echo "WARNING: no GPG key configured, repo will be unsigned!"
